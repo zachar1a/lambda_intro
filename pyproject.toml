@@ -1,0 +1,27 @@
+[build-system]
+requires = ["poetry>=1.0"]
+build-backend = "poetry.masonry.api"
+
+
+[tool.poetry]
+name = "lambda_intro"
+version = "0.1.0"
+description = "intro to aws lambda functions"
+
+authors = []
+
+readme = "README.md"
+
+keywords = []
+
+[tool.poetry.dependencies]
+python = "^3.8"
+newrelic = "^5.12.0"
+logzero = "^1.5.0"
+
+[tool.poetry.dev-dependencies]
+
+isort = "^4.3.21"
+black = "^19.10b0"
+safety = "^1.8"
+sphinx = "^2.2"
