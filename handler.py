@@ -3,7 +3,7 @@ from logzero import logger
 
 
 @common.newrelic_wrapper
-def lambda_handler(event, context = None):
-
+def lambda_handler(event=None, context = None):
+	return event
 
 	raise NotImplementedError
